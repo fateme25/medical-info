@@ -30,3 +30,4 @@ website wherein the users can get the latest medical news and, and book an appoi
 ![image](https://github.com/fatmeh25/medical-info/blob/main/assets/images/newspage.png?raw=true)
 
 ### Live Demo
+https://medical-information.netlify.app/
