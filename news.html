@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#"><img class="logo" src="assets/images/logo.webp" alt="logo"></a>
+            <button class="menu-trigger" id="menu-trigger">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="links" id="links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Living Healthy</a></li>
+                <li><a href="#appointment">Schedule Appointment</a></li>
+                <li><a href="./news.html">News</a></li>
+                <span class="login">
+                    <a href="#" class="register">Register</a>
+                    <a href="#" class="signin">Sign In</a>
+                </span>
+            </ul>
+        </nav>
+    </header>
+    <!-- News section -->
+    <div class="main-container">
+        <p class="news">News</p>
+        <h1>Health News</h1>
+        <div class="news-text">
+            <div class="left-text">
+                <h3>TikTok 'Slugging' Trend Has People Coating Their
+                    Faces With Grease and beauty oils </h3>
+                <img src="./assets/images/news1.svg" alt="constulting a patient">
+                <p>The idea is not medically unsound, stressed Pagani, who conducted her research while a medical
+                    student in the Department of Dermatology at the Beth Israel Deaconess Medical Center in Boston.
+                    "I've heard some dermatologists speak very highly about it, most often for addressing eczema on the
+                    hands," she added. "It definitely does have benefits.And with social media sites like TikTok
+                    exerting such a "strong influence on the younger population," she and her colleagues wanted to see
+                    if that platform's more than 1 billion users are likely to get the full picture of what slugging
+                    really involves.</p>
+                <img src="./assets/images/news2.svg" alt="a woman doctor is constulting a patient">
+                <p>"Information literacy" is what it's all about, he noted, meaning that those who turn to social media
+                    for health information know that they have to distinguish "between those making a good faith effort
+                    to help others navigate complex health issues and those who are more concerned about getting
+                    attention than about being right."</p>
+            </div>
+            <aside>
+                <ul id="news-list">
+                </ul>
+            </aside>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <ul class="box">
+                <h3>Concat Us</h3>
+                <li><i class='fas fa-envelope'></i>medical99@gamil.com</li>
+                <li>
+                    <span><i class='fas fa-phone-square-alt'></i></span>
+                    <p>
+                        <a href="">+98 123 45 67 896</a>
+                        <br>
+                        <a href="">+98 325 78 01 534</a>
+                    </p>
+                </li>
+
+                <li><i class="fa fa-map-marker"></i>Tehran,Iran</li>
+            </ul>
+            <ul class="box">
+                <h3>Quick Links</h3>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>FAQ</li>
+                <li>Doctor</li>
+            </ul>
+            <ul class="box">
+                <h3>Our Services</h3>
+                <li>Dental Care</li>
+                <li>Cardiology</li>
+                <li>Ambulance Service</li>
+                <li>Medicine</li>
+                <li>Message Therapy</li>
+            </ul>
+            <ul class="box">
+                <h3>Feedback</h3>
+                <form action="#">
+                    <div class="input-data">
+                        <input type="text" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-data">
+                        <input type="tel" required>
+                        <label>Phone</label>
+                    </div>
+                    <div class="input-data textarea" required>
+                        <textarea cols="30" rows="10"></textarea>
+                        <label>Message</label>
+                    </div>
+                    <button class="submit-btn" type="submit">SUBMIT</button>
+            </ul>
+        </div>
+        <div class="medical-center">
+            <a href="#">WWW.medicalinformation.com</a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

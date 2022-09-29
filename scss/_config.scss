@@ -1,0 +1,41 @@
+// Variables
+$clr-1:rgba(61, 165, 255, 0.07);
+$clr-2:rgba(2, 62, 138, 0.56);
+$clr-3:rgba(2, 62, 138, 1);
+$clr-4:rgba(0, 150, 199, 0.56);
+$clr-5:#FFB703;
+$clr-6:#FFBF69;
+$clr-black:#000000;
+$clr-grey-1:rgba(0, 0, 0, 0.63);
+$clr-grey-2:rgba(0, 0, 0, 0.61);
+$clr-grey-3:rgba(0, 0, 0, 0.31);
+$clr-white:#FFFFFF;
+// Shadow color 
+$shadow-1:rgba(0, 0, 0, 0.17);
+$shadow-2:rgba(0, 0, 0, 0.13);
+$shadow-3:rgba(229, 229, 229, 1);
+$shadow-4:rgba(0, 0, 0, 0.1);
+// font family
+$-ff-accent:'Inter',
+sans-serif;
+$primary-font:'Istok Web',
+sans-serif;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+$md-width:820px;
+
+@mixin media-md {
+    @media screen and (max-width:#{$md-width}) {
+
+        @content;
+    }
+}
