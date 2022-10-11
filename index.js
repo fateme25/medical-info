@@ -1,10 +1,8 @@
 const menuTrigger = document.getElementById('menu-trigger');
 const navUL = document.querySelector(".links");
-const hamburger = document.querySelector('.menu-trigger');
 
 menuTrigger.addEventListener('click', () => {
   navUL.classList.toggle('show');
-  hamburger.classList.toggle('show');
 
 });
 
