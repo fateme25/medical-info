@@ -1,19 +1,17 @@
 # Medical Website
-website wherein the users can get the latest medical news and, and book an appointment for a doctor working there.
+website wherein the users can get the latest medical news and, book an appointment for a doctor working there.
 
 ### Technologies
-#### Front-End
 * HTML / CSS 
-* jQuery
 * JavaScript
+* jQuery v 3.6.0
+* AJAX
+* Public API 
 * AOS (Animate on scroll library)
- #### Back-End
- * AJAX
- * Public API 
 
 
 ## API
- API i have used is : public api (Healthcare.gov)
+ API i have used is : public api (https://www.healthcare.gov/developers)
 
 ## Screenshots:
 #### Homepage
@@ -29,5 +27,3 @@ website wherein the users can get the latest medical news and, and book an appoi
 #### News page 
 ![image](https://github.com/fatmeh25/medical-info/blob/main/assets/images/newspage.png?raw=true)
 
-### Live Demo
-https://medical-information.netlify.app/
