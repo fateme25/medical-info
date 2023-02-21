@@ -5,7 +5,6 @@ website wherein the users can get the latest medical news and, book an appointme
 * HTML / CSS 
 * JavaScript
 * jQuery v 3.6.0
-* AJAX
 * Public API 
 * AOS (Animate on scroll library)
 
